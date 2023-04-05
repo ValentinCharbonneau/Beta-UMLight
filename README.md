@@ -21,20 +21,20 @@ Serveurs de base de données compatibles :
 
 Pour installer Beta-UMLight, suivez les étapes suivantes :
 
-- Téléchargez l'installer (UMLight-Installer.exe) qui se trouve à la racine de la même branche que ce document, puis l'exécuter pour installer UMLight et UMLight-Admin.
+- Télécharger l'installer (UMLight-Installer.exe) qui se trouve à la racine de la même branche que ce document, puis l'exécuter pour installer UMLight et UMLight-Admin.
 
-- Créez la base de données sur un serveur de base de données compatible, puis créer deux utilisateurs ayant des droits spécifiques sur cette base de données :
+- Créer la base de données sur un serveur de base de données compatible, puis créer deux utilisateurs ayant des droits spécifiques sur cette base de données :
     - Le premier utilisateur devra avoir les droits lui permettant de créer et de supprimer les tables, ainsi que les droits lui permettant d'insérer, de modifier, de lire et de supprimer des données dans toutes les tables de la base de données. Cet utilisateur sera par la suite appelé AdminUserDb dans ce document.
     - Le second utilisateur devra simplement avoir les droits lui permettant d'insérer, de modifier, de lire et de supprimer des données dans toutes les tables de la base de données. Cet utilisateur sera par la suite appelé UserDb dans ce document.
 
-- Ouvrez UMLight-Admin, connectez-vous à la base de données précédemment créée avec l'utilisateur AdminUserDb, puis générer la base de données à l'aide du boutons "Créer".
+- Ouvrir UMLight-Admin, se connecter à la base de données précédemment créée avec l'utilisateur AdminUserDb, puis générer la base de données à l'aide du bouton "Créer".
 
-- Utilisez UMLight-Admin pour créer un premier utilisateur, via l'onglet "Utilisateurs".
+- Utiliser UMLight-Admin pour créer un premier utilisateur, via l'onglet "Utilisateurs".
 
-- Ouvrez UMLight, connectez-vous à la base de données avec l'utilisateur UserDb, puis à l'application avec l'utilisateur que vous venez de créer dans UMLight-Admin.
+- Ouvrir UMLight, se connecter à la base de données avec l'utilisateur UserDb, puis à l'application avec l'utilisateur que vous venez de créer dans UMLight-Admin.
 
 Vous pouvez désormais créer des projets pour y designer vos schémas UML.
-Vous pourrez par la suite installer UMLight sur d'autres postes, sans y installer UMLight-Admin, puis vous connecter à la base de données à l'aide de l'utilisateur UserDb. Le travail en équipe sera alors possible, chaque utilisateur pouvant avoir ses projets, et pouvant y inclure d'autre utilisateur.
+Vous pourrez par la suite installer UMLight sur d'autres postes, sans y installer UMLight-Admin, puis vous connecter à la base de données à l'aide de l'utilisateur UserDb. Le travail en équipe sera alors possible, chaque utilisateur pouvant avoir ses projets, et pouvant y inclure d'autres utilisateurs.
 
 ## Licence
 
