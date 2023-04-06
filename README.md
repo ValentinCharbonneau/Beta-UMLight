@@ -12,7 +12,8 @@ Le projet est composé de trois logiciels :
 ## Serveurs de base de données supportés
 Le logiciel UMLight a besoin d'être connecté à un serveur de base de données lui permettant d'y enregistrer les utilisateur et les schémas UML.
 Serveurs de base de données compatibles :
- - MySQL / MariaDB
+ - MySQL
+ - MariaDB (10.5 ou moins)
  - PostgreSQL
  - SQL Server
  - Cosmos
