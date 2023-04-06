@@ -1,13 +1,13 @@
-# UMLight Bêta v1.0.0
+# UMLight Bêta v1.0.0 ![Quality](https://img.shields.io/badge/statut-beta-orange.svg) ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 UMLight, ici en version bêta 1.0.0, est un outil de création de diagrammes UML pour les développeurs. Il permet de créer facilement des diagrammes UML pour vos projets de développement de logiciels.
 
 ## Logiciels
 
 Le projet est composé de trois logiciels :
-- UMLight : Logiciel principal permettant de créer des schémas UML.
-- UMLight-Admin : Logiciel permettant d'administrer la base de données et d'y créer les tables lors de la première installation. Ce logiciel est destiné à être installé uniquement sur le poste de l'administrateur réseau.
-- UMLight-Installer : Logiciel permettant d'installer un des deux, ou les deux logiciels précédemments cités.
+- UMLight : Logiciel principal permettant de créer des schémas UML. ![Version](https://img.shields.io/badge/version-b1.0.0-blue.svg)
+- UMLight-Admin : Logiciel permettant d'administrer la base de données et d'y créer les tables lors de la première installation. Ce logiciel est destiné à être installé uniquement sur le poste de l'administrateur réseau. ![Version](https://img.shields.io/badge/version-b--a1.0.0-blue.svg)
+- UMLight-Installer : Logiciel permettant d'installer un des deux, ou les deux logiciels précédemments cités. ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 ## Serveurs de base de données supportés
 Le logiciel UMLight a besoin d'être connecté à un serveur de base de données lui permettant d'y enregistrer les utilisateur et les schémas UML.
@@ -38,4 +38,4 @@ Vous pourrez par la suite installer UMLight sur d'autres postes, sans y installe
 
 ## Licence
 
-UMLight est distribué sous licence. Consultez le fichier LICENCE pour plus d'informations.
+UMLight est distribué sous licence. Consultez le fichier [LICENCE](https://github.com/ValentinCharbonneau/Beta-UMLight/blob/v1.0.0/LICENCE) pour plus d'informations.
