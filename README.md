@@ -15,8 +15,6 @@ Serveurs de base de données compatibles :
  - MySQL
  - MariaDB (10.5 ou moins)
  - PostgreSQL
- - SQL Server
- - Cosmos
 
 ## Installation
 
